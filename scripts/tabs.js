@@ -19,3 +19,7 @@ function openCity(evt, cityName) { //esta funcion dispara eventos con el onclick
     document.getElementById(cityName).style.display = "block"; 
     evt.currentTarget.className += " active";
   }
+
+   //To open a specific tab on page load, use JavaScript to "click" on the specified tab button:
+  // Get the element with id="defaultOpen" and click on it
+   document.getElementById("defaultOpen").click();
