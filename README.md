@@ -1,10 +1,6 @@
-# EduardoAlvarez1970.github.io
+W3Schools How To:
 
-name of the repository =  gh-page .
+Code snippets for HTML, CSS and JavaScript.
 
+https://www.w3schools.com/howto/default.asp
 
-/////////////////////////
-
-Layout design using the Braid Design System https://seek-oss.github.io/braid-design-system/foundations/layout/
-
-SIMPLE HEADER/MAIN/FOOTER LAYOUT HERE
