@@ -23,3 +23,16 @@
   display: none; /*display:none hace que quede oculto hasta que se clikea en él*/
   overflow: hidden;
 }
+
+
+.main {
+  background-color: rgb(166, 255, 0);
+  padding: 20px;
+  text-align: center;
+  font-size: larger;
+}
+.main > a {
+  display: block; /* paso el <a> a display block para que no me queden en linea'*/
+  color: black;
+  padding: 20px;
+}
