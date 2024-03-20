@@ -28,3 +28,20 @@
    
    Then, use JavaScript to slide down the content by setting a calculated max-height,
    depending on the panel's height on different screen sizes. */
+
+
+
+  /*  Add Icons
+   Add a symbol to each button to indicate whether the collapsible content is open or closed */
+
+   .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
