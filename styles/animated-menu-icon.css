@@ -1,0 +1,28 @@
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 { /*esto crea las 3 lineas negras up/left*/
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s; /*seteamos el tiempo de la transicion*/
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/*AQUI LAS .bar1 Y .bar2 GIRAN 45 GRADOS UNA PARA UN LADO Y LA OTRA PARA 
+EL OPUESTO(translate y rotate). LA .bar2 LA HACEMOS DESAPARECER CON opacity:0*/

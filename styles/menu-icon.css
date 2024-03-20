@@ -1,0 +1,9 @@
+div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/*cada div va a ser una simple linea negra determinada por width and height, color negro 9usamos background
+pues es el "relleno del espacio" de cada div. Luego con un margin 6 y 0 lo posicionamos arriba y a la izq*/
