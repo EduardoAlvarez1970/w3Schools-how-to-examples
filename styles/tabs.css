@@ -51,4 +51,17 @@
     to {opacity: 1;}
   }
 
+
+
+  .main {
+    background-color: rgb(255, 242, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+  }
+  .main > a {
+    display: block; /* paso el <a> a display block para que no me queden en linea'*/
+    color: black;
+    padding: 20px;
+  }
   
