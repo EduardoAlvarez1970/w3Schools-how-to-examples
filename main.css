@@ -4,17 +4,17 @@
     padding: 0;
  }
 
- .layout {
+ .layout {   /*ESTO ME ESTILIZA TODO EL BODY*/
     width: 100%;
-    height: 768px;
+    height: 100vh;
   
-    display: grid;
+    display: grid; /*UTILIZO GRID LAYOUT*/
     grid:
-      "header" auto
+      "header" auto  /*DEFINO LOS ESPACIOS PARA CADA GRID*/
       "main" 1fr
       "footer" auto
       / 1fr;
-    /*gap: 8px;*/
+    gap: 8px; /*ESE GAP ES EL ESPACIO EN BLANCO QUE SEPARA A CADA SECCION, PODRIA NO USARLO Y QUE QUEDE TODO "PEGADITO"*/
   }
   
   .header { grid-area: header; }
@@ -40,4 +40,8 @@
   }
   .footer {
     background-color: rgb(60, 7, 130);
+    color: white;
+    font-size: larger;
+    padding: 50px;
+    text-align: center;
   }
