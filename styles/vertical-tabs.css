@@ -1,25 +1,26 @@
 * {box-sizing: border-box}
+
 body {font-family: "Lato", sans-serif;}
 
 /* Style the tab */
 .tab {
-  float: left;
+  float: left; /*coloca los elementos a la izquierda*/
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
+  width: 30%; /*ocupa el 'primer 30%' del ancho de la pagina*/
+  height: 300px; /*una altura de 300 pixeles*/
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  display: block;
+  display: block; /*para que cada boton/link no quede en linea sino uno debajo del otro en block*/
   background-color: inherit;
   color: black;
   padding: 22px 16px;
-  width: 100%;
+  width: 100%; /*todo el ancho PERO !! siempre dentro del container ese de 30%*/
   border: none;
   outline: none;
-  text-align: left;
+  text-align: left; /*los nombres de los paises a la izq*/
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
@@ -41,6 +42,6 @@ body {font-family: "Lato", sans-serif;}
   padding: 0px 12px;
   border: 1px solid #ccc;
   width: 70%;
-  border-left: none;
-  height: 300px;
+  border-left: none; /*para que no se superponga con el border del elemento de al lado y no se cree un doble-borde*/
+  height: 300px; /*que coincida con el alto del elemento de al lado*/
 }
