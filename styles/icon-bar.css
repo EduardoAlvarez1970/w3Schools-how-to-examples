@@ -11,13 +11,13 @@ body {margin:0;}
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
+  transition: all 0.3s ease; /* Add transition for hover effects, VER MAS SOBRE transitions */
   color: white; /* White text color */
   font-size: 36px; /* Increased font size */
 }
 
 .icon-bar a:hover {
-  background-color: #000; /* Add a hover color */
+  background-color: #f80404; /* Add a hover color */
 }
 
 .active {
