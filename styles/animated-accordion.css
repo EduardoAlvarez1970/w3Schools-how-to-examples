@@ -1,4 +1,4 @@
-.accordion {
+.accordion { /*estilizo los buttons de cada section*/
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -11,11 +11,11 @@
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .active, .accordion:hover { /*la clase active es agregada en el js*/
     background-color: #ccc;
   }
   
-  .panel {
+  .panel { /*estilizacion del panel que aparece con cl click en js*/
     padding: 0 18px;
     background-color: white;
     max-height: 0;
