@@ -11,13 +11,13 @@
   transition: 0.4s; /*seteamos el tiempo de la transicion*/
 }
 
-/* Rotate first bar */
+/* Rotate first bar */ /*la primera clase es del JS y la segunda del html*/
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
-.change .bar2 {opacity: 0;}
+.change .bar2 {opacity: 0;} 
 
 /* Rotate last bar */
 .change .bar3 {
