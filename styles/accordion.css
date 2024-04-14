@@ -4,7 +4,7 @@
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%; /*recordá, siempre width 100% ndica que va de lado a lado de la pagina, cubre todo su ancho*/
+  width: 100%; /*recordá, siempre width 100% indica que va de lado a lado de la pagina, cubre todo su ancho*/
   text-align: left;
   border: none;
   outline: none;
@@ -12,7 +12,7 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active, .accordion:hover {  /*LA CLASE .active SE AGREGA EN EL js*/
   background-color: #ccc;
 }
 
@@ -25,6 +25,7 @@
 }
 
 
+/*ESTO QUE SIGUE YA ES REFERENTE AL LINK QUE ESTA DEBAJO*/
 .main {
   background-color: rgb(166, 255, 0);
   padding: 20px;
