@@ -12,7 +12,7 @@
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 25%; /*atencion, es 25% porque son 4 botones y el total del ancho es 100%*/
 }
 
 /* Change background color of buttons on hover */
@@ -23,13 +23,13 @@
 /* Set default styles for tab content */
 .tabcontent {
   color: white;
-  display: none;
+  display: none; /*para que quede oculto hasta que el js con onclick lo muestre*/
   padding: 50px;
   text-align: center;
 }
 
 /* Style each tab content individually */
-#London {background-color:red;}
+#London {background-color:red;} /*le asigno un color a cada una, fijate que estilizo por id*/
 #Paris {background-color:green;}
 #Tokyo {background-color:blue;}
 #Oslo {background-color:orange;}
