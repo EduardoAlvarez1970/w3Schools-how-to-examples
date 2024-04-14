@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eduardo Alvarez Portfolio Page">
+    <meta name="author" content="Eduardo Alvarez">
+    <!-- On some browsers, this sets the theme color -->
+    <!--<meta name="theme-color" content="#c15a58" />-->
+    <title>Icon-Bar</title>
+    <link rel="stylesheet" href="/styles/tabHeaders.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <!-- Helps prevent duplicate content issues -->
+    <link rel="canonical" href="https://eduardoalvarez1970.github.io/">
+    <!-- Links to a JSON file that specifies "installation" credentials for the web applications -->
+    <!--<link rel="manifest" href="manifest.json">-->
+    
+    <!-- 'defer' sets the script to downloaded in parallel to the page and executed after the page is parsed -->
+    <script src="/scripts/tabHeaders.js" defer></script>       
+</head>
+<body>
+
+  <h2>TabHeaders</h2>
+  <p>Click on the "city" buttons to display the appropriate header:</p>
+
+    <!--Create Togglable Tab Headers-->
+
+    <div id="London" class="tabcontent">
+      <h1>London</h1>
+      <p>London is the capital city of England.</p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <h1>Paris</h1>
+      <p>Paris is the capital of France.</p>
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+      <h1>Tokyo</h1>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+    
+    <div id="Oslo" class="tabcontent">
+      <h1>Oslo</h1>
+      <p>Oslo is the capital of Norway.</p>
+    </div>
+
+    <!--Create buttons to open specific tab content.
+    All <div> elements with class="tabcontent" are hidden by default (with CSS & JS).
+    When the user clicks on a button - it will open the tab content that "matches" this button.-->
+    
+    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+    <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+
+      
+
+</body>
+</html>
