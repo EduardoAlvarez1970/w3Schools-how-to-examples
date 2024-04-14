@@ -28,7 +28,7 @@
   
   /* Style the tab content */
   .tabcontent {
-    display: none;
+    display: none; /*se mantiene oculto hasta que el click del js lo muestra*/
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
@@ -42,7 +42,7 @@
   
   /* Fading effect takes 1 second */
   .tabcontent {
-    animation: fadeEffect 1s; 
+    animation: fadeEffect 4s; 
   }
   
   /* Go from zero to full opacity */
@@ -53,6 +53,7 @@
 
 
 
+  /*ESTO ES SOLO PARA EL LINK QUE LE SIGUE*/
   .main {
     background-color: rgb(255, 242, 0);
     padding: 20px;
