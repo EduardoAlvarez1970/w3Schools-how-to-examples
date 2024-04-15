@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eduardo Alvarez Portfolio Page">
+    <meta name="author" content="Eduardo Alvarez">
+    <!-- On some browsers, this sets the theme color -->
+    <!--<meta name="theme-color" content="#c15a58" />-->
+    <title>Icon-Bar</title>
+    <link rel="stylesheet" href="/styles/tabHeaders.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <!-- Helps prevent duplicate content issues -->
+    <link rel="canonical" href="https://eduardoalvarez1970.github.io/">
+    <!-- Links to a JSON file that specifies "installation" credentials for the web applications -->
+    <!--<link rel="manifest" href="manifest.json">-->
+    
+    <!-- 'defer' sets the script to downloaded in parallel to the page and executed after the page is parsed -->
+    <script src="/scripts/tabHeaders.js" defer></script>       
+</head>
+<body>
+
+  <!--CREAMOS 4 BOTONES-->
+  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+  <!--EL CONTENIDO DE CADA BOTON-->
+  <div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
+  </div>
+
+  <div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p>
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+</body>
+</html>
